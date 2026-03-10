@@ -1,19 +1,19 @@
 .orange-text {
     color: orange;
-    text-decoration: bold;
 }
 
 h1 {
-    font-size: 3.5em;
+    font-size: 50px;
     text-align: center;
     margin-top: 7%;
 }
 
 @font-face {
-    font-family: 'Roboto Mono';
-    src: url('/fonts/RobotoMono-VariableFont_wght.ttf') format('truetype');
+    font-family: 'Roboto';
+    src: url('Roboto-VariableFont_wdth\,wght.ttf') format('truetype');
 }
 
 body {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 100;
 }
