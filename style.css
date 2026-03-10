@@ -3,8 +3,17 @@
     text-decoration: bold;
 }
 
+h1 {
+    font-size: 3.5em;
+    text-align: center;
+    margin-top: 7%;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('/fonts/RobotoMono-VariableFont_wght.ttf') format('truetype');
+}
+
 body {
-    font-family: RobotoMono-VariableFont_wght, sans-serif;
-    margin: 0;
-    padding: 0;
+    font-family: 'Roboto Mono', monospace;
 }
