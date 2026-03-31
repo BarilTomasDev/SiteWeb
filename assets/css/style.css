@@ -10,7 +10,7 @@ h1 {
 
 @font-face {
     font-family: 'Quicksand';
-    src: url('assets/fonts/Quicksand-Regular.ttf') format('truetype');
+    src: url("assets/fonts/Quicksand-Regular.ttf") format('truetype');
 }
 
 body {
@@ -20,7 +20,7 @@ body {
 
 body header h1 {
     color: rgb(80, 80, 80);
-    text-align : center;
+    text-align: center;
 }
 
 body header h2 {
@@ -63,9 +63,44 @@ body main {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.images {
+/* REMOVED because the gap of 200px prevents responsive design */
+/* ENLEVER car le gap de 200px empêche le responsive */
+/* .images {
     display: flex;
     justify-content: center;
     gap: 200px;
     margin-top: 30px;
+} */
+
+/* So that the images are not too close to the text on mobile */
+/* Pour que les images ne soient pas trop collées au texte sur mobile */
+.col-12 img {
+    max-width: 150px;
+    margin: 0 auto;
+    display: block;
 }
+
+/* Bootstrap...grid ? START*/
+.img-container {
+    height: 150px;
+    /* Explicit height */
+    display: flex;
+    align-items: center;
+    /* Centré verticalement */
+    justify-content: center;
+    /* Centré horizontalement */
+    margin-bottom: 15px;
+}
+
+.img-container img {
+    max-height: 100%;
+    /* dépasse jamais les 150px */
+    width: auto;
+    /* Garde les proportions originales */
+    object-fit: contain;
+}
+
+.images {
+    display: none;
+}
+/* Bootstrap...grid ? END */
