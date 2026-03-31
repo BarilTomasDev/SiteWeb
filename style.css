@@ -28,3 +28,20 @@ body header h2 {
     color: rgb(115, 115, 115);
     text-align: center;
 }
+
+.curriculum-button {
+    display: block;
+    margin: 30px auto;
+    padding: 13px 22px;
+    font-size: 1em;
+    color: rgb(115, 115, 115);
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgb(115, 115, 115);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.curriculum-button:hover {
+    background-color: rgb(236, 236, 236);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
