@@ -19,13 +19,29 @@ body {
 }
 
 body header h1 {
-    color: rgb(82, 80, 80);
+    color: rgb(80, 80, 80);
     text-align : center;
 }
 
 body header h2 {
     font-size: 1.3em;
-    color: rgb(115, 115, 115);
+    color: rgb(80, 80, 80);
+    text-align: center;
+}
+
+body main h2 {
+    font-size: 2em;
+    color: rgb(80, 80, 80);
+    margin-top: 50px;
+}
+
+body main p {
+    font-size: 1.15em;
+    color: rgb(80, 80, 80);
+    margin-top: 20px;
+}
+
+body main {
     text-align: center;
 }
 
@@ -34,14 +50,22 @@ body header h2 {
     margin: 30px auto;
     padding: 13px 22px;
     font-size: 1em;
-    color: rgb(115, 115, 115);
+    color: rgb(0, 0, 0);
     background-color: rgba(255, 255, 255, 0);
     border: 1px solid rgb(115, 115, 115);
     border-radius: 10px;
     cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .curriculum-button:hover {
     background-color: rgb(236, 236, 236);
     transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 30px;
 }
