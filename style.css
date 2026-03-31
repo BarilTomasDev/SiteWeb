@@ -10,7 +10,7 @@ h1 {
 
 @font-face {
     font-family: 'Quicksand';
-    src: url("/fonts/Quicksand-Regular.ttf") format('truetype');
+    src: url("fonts/Quicksand-Regular.ttf") format('truetype');
 }
 
 body {
