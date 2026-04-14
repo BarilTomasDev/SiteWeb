@@ -1,0 +1,1984 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>The Odin Project - DEV Community</title>
+    
+  <link rel="canonical" href="blog.html" />
+<meta name="description" content="">
+<meta name="keywords" content="software development, engineering, rails, javascript, ruby">
+
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://dev.to/theodinproject" />
+<meta property="og:title" content="The Odin Project — DEV Community Profile" />
+<meta property="og:image" content="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3otvb2z646ytpt1hl2rv.jpg" />
+<meta property="og:description" content="" />
+<meta property="og:site_name" content="DEV Community" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@thepracticaldev">
+<meta name="twitter:creator" content="@TheOdinProject">
+<meta name="twitter:title" content="The Odin Project — DEV Community Profile">
+<meta name="twitter:description" content="">
+<meta name="twitter:image:src" content="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3otvb2z646ytpt1hl2rv.jpg" />
+  <link rel="alternate" type="application/rss+xml" title="DEV Community RSS Feed" href="https://dev.to/feed/theodinproject" />
+
+
+      <meta name="last-updated" content="2026-04-13 13:27:41 UTC">
+      <meta name="user-signed-in" content="false">
+      <meta name="head-cached-at" content="1776086861">
+      <meta name="environment" content="production">
+      <link rel="stylesheet" href="https://assets.dev.to/assets/minimal-5baa3fdf02812a21566564aed3685c46bb3d6b786812852cbe0b0420b2fbaf6f.css" media="all" id="main-minimal-stylesheet" />
+<link rel="stylesheet" href="https://assets.dev.to/assets/views-0681ac17bf1546793c4b7ef7c615b2defec919060aefb3b9c287471e8cb77bf2.css" media="all" id="main-views-stylesheet" />
+<link rel="stylesheet" href="https://assets.dev.to/assets/crayons-d2b52af1d86a9ac9a8bc215ed34ffad7a94af68f4abd1cdcae2a8c1a4385cd23.css" media="all" id="main-crayons-stylesheet" />
+
+      <script src="https://assets.dev.to/assets/base-0c748bbcdc30041261c326ef2ce931fbce46c58bc3c488da881ae35c4750941d.js" defer="defer"></script>
+<script src="https://assets.dev.to/assets/application-0b268684912bef9b0f23defff01cb608bfc5d5e5610287725e7b686139ae32d3.js" defer="defer"></script>
+<script src="https://assets.dev.to/assets/baseInitializers-2f0777a6d67046056f9f42665560ce072de3801292674358ddbad6e135c1891d.js" defer="defer"></script>
+<script src="https://assets.dev.to/assets/baseTracking-b6bf73e5ee66633e151e7d5b7c6bbccedfa4c59e3615be97b98c4c0f543ddae7.js" defer="defer"></script>
+<script src="https://assets.dev.to/assets/followButtons-a29380c2c88136b97b2b5e63e94614ff7458fc72e07cffa7b6153831c28a40d2.js" defer="defer"></script>
+
+        <meta name="search-script" content="https://assets.dev.to/assets/Search-b977aea0f2d7a5818b4ebd97f7d4aba8548099f84f5db5761f8fa67be76abc54.js">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+      <link rel="icon" type="image/x-icon" href="https://media2.dev.to/dynamic/image/width=32,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png" />
+      <link rel="apple-touch-icon" href="https://media2.dev.to/dynamic/image/width=180,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="https://media2.dev.to/dynamic/image/width=152,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="https://media2.dev.to/dynamic/image/width=180,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png">
+      <link rel="apple-touch-icon" sizes="167x167" href="https://media2.dev.to/dynamic/image/width=167,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png">
+      <link href="https://media2.dev.to/dynamic/image/width=192,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png" rel="icon" sizes="192x192" />
+      <link href="https://media2.dev.to/dynamic/image/width=128,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png" rel="icon" sizes="128x128" />
+      <meta name="apple-mobile-web-app-title" content="dev.to">
+      <meta name="application-name" content="dev.to">
+      <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+      <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+      <link rel="search" href="https://dev.to/open-search.xml" type="application/opensearchdescription+xml" title="DEV Community" />
+
+      <meta property="forem:name" content="DEV Community" />
+      <meta property="forem:logo" content="https://media2.dev.to/dynamic/image/width=512,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png" />
+      <meta property="forem:domain" content="dev.to" />
+    <style>
+/* ==========================================================================
+   THE 418 CHALLENGE: THEME-AWARE RETRO EDITION
+   ========================================================================== */
+
+.articletag-418challenge {
+  font-family: "Comic Sans MS", "Chalkboard SE", "Marker Felt", sans-serif !important;
+  cursor: crosshair !important;
+}
+
+/* Destroy modern rounded corners and add brutal borders */
+.articletag-418challenge .crayons-card,
+.articletag-418challenge .crayons-article__main,
+.articletag-418challenge .crayons-article__header {
+  border-radius: 0 !important;
+  margin-bottom: 2rem !important;
+}
+
+/* Typography specifics */
+.articletag-418challenge h1,
+.articletag-418challenge h2,
+.articletag-418challenge h3 {
+  text-transform: uppercase !important;
+}
+
+/* Fake <marquee> effect for the main article title */
+.articletag-418challenge h1.fs-3xl {
+  animation: retro-slide 5s linear infinite alternate;
+  overflow: visible;
+}
+
+/* Spin those avatars */
+.articletag-418challenge .crayons-article__header__meta img {
+  border-radius: 0 !important; 
+  animation: retro-spin 5s linear infinite;
+}
+
+/* Obnoxious tags */
+.articletag-418challenge .crayons-tag {
+  border-radius: 0 !important;
+  font-weight: 900 !important;
+  transform: rotate(-3deg);
+  display: inline-block;
+}
+.articletag-418challenge .crayons-tag:nth-child(even) {
+  transform: rotate(3deg);
+}
+
+/* --------------------------------------------------------------------------
+   2. LIGHT THEME (Windows 95 / Office 97 Vibes)
+   -------------------------------------------------------------------------- */
+body:not(.dark-theme) .articletag-418challenge {
+  background-color: #008080 !important; /* Win95 Teal Desktop */
+}
+
+body:not(.dark-theme) .articletag-418challenge .crayons-card,
+body:not(.dark-theme) .articletag-418challenge .crayons-article__main,
+body:not(.dark-theme) .articletag-418challenge .crayons-article__header {
+  background-color: #c0c0c0 !important; /* Classic dialog gray */
+  color: #000000 !important;
+  border: 4px outset #ffffff !important;
+  box-shadow: 8px 8px 0px #000000 !important;
+}
+
+body:not(.dark-theme) .articletag-418challenge h1,
+body:not(.dark-theme) .articletag-418challenge h2,
+body:not(.dark-theme) .articletag-418challenge h3 {
+  color: #ff0000 !important;
+  text-shadow: 2px 2px 0px #ffff00 !important;
+  border-bottom: 3px dashed #0000ff !important;
+}
+
+body:not(.dark-theme) .articletag-418challenge a,
+body:not(.dark-theme) .articletag-418challenge .crayons-link {
+  color: #0000ff !important; /* Standard unvisited blue */
+  text-decoration: underline !important;
+  font-weight: bold !important;
+}
+
+body:not(.dark-theme) .articletag-418challenge a:hover,
+body:not(.dark-theme) .articletag-418challenge .crayons-link:hover {
+  background-color: #ffff00 !important;
+  color: #ff0000 !important;
+}
+
+body:not(.dark-theme) .articletag-418challenge .crayons-tag {
+  background: #ffff00 !important;
+  color: #ff0000 !important;
+  border: 2px dotted #0000ff !important;
+}
+
+/* --------------------------------------------------------------------------
+   3. DARK THEME (1999 Hacker / Deep GeoCities Vibes)
+   -------------------------------------------------------------------------- */
+body.dark-theme .articletag-418challenge {
+  background-color: #000000 !important;
+  /* Dumb CSS: A scrolling, eye-bleeding neon green hacker grid with CRT scanlines */
+  background-image: 
+    linear-gradient(transparent 50%, rgba(0, 255, 0, 0.25) 50%), 
+    linear-gradient(90deg, rgba(0, 255, 0, 0.5) 1px, transparent 1px), 
+    linear-gradient(rgba(0, 255, 0, 0.5) 1px, transparent 1px) !important;
+  background-size: 100% 4px, 20px 20px, 20px 20px !important;
+  animation: retro-pan 60s linear infinite !important;
+}
+
+body.dark-theme .articletag-418challenge .crayons-card,
+body.dark-theme .articletag-418challenge .crayons-article__main,
+body.dark-theme .articletag-418challenge .crayons-article__header {
+  background-color: #111111 !important;
+  color: #00ff00 !important; /* Terminal Green */
+  border: 4px outset #555555 !important;
+  box-shadow: 8px 8px 0px #ff00ff !important; /* Hot pink shadow */
+}
+
+body.dark-theme .articletag-418challenge h1,
+body.dark-theme .articletag-418challenge h2,
+body.dark-theme .articletag-418challenge h3 {
+  color: #ff00ff !important; /* Magenta headers */
+  text-shadow: 2px 2px 0px #00ffff !important; /* Cyan shadow */
+  border-bottom: 3px dashed #00ff00 !important;
+}
+
+body.dark-theme .articletag-418challenge a,
+body.dark-theme .articletag-418challenge .crayons-link {
+  color: #00ffff !important; /* Cyan links */
+  text-decoration: underline !important;
+  font-weight: bold !important;
+}
+
+body.dark-theme .articletag-418challenge a:hover,
+body.dark-theme .articletag-418challenge .crayons-link:hover {
+  background-color: #ff00ff !important;
+  color: #ffffff !important;
+}
+
+body.dark-theme .articletag-418challenge .crayons-tag {
+  background: #000000 !important;
+  color: #00ff00 !important;
+  border: 2px dotted #ff00ff !important;
+}
+
+/* --------------------------------------------------------------------------
+   4. ANIMATIONS
+   -------------------------------------------------------------------------- */
+@keyframes retro-spin {
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes retro-slide {
+  0% { transform: translateX(-2%); }
+  100% { transform: translateX(2%); }
+}
+
+@keyframes retro-pan {
+  0% { background-position: 0 0, 0 0, 0 0; }
+  /* Numbers must be multiples of the background-size (4px and 20px) to loop perfectly */
+  100% { background-position: 0 100px, 40px 40px, 40px 40px; }
+}
+
+/* --------------------------------------------------------------------------
+   5. BONUS: CAUTION TAPE REACTION BAR
+   -------------------------------------------------------------------------- */
+.articletag-418challenge .crayons-article-actions {
+  background: repeating-linear-gradient(
+    45deg,
+    #ffff00,
+    #ffff00 10px,
+    #000000 10px,
+    #000000 20px
+  ) !important;
+  border: 4px solid #ff0000 !important;
+  border-radius: 0 !important;
+}
+
+.articletag-418challenge .crayons-article-actions button {
+  background:black;
+  color: #ff00ff !important;
+}
+
+.articletag-418challenge .crayons-article-actions .crayons-reaction__count {
+    color: #ff00ff !important;
+    font-weight: bold !important;
+}
+
+.articletag-418challenge .crayons-icon:not(.crayons-icon--default) * {
+    fill: #ffff00 !important;
+}
+
+.articletag-418challenge .c-embed .crayons-btn--primary {
+  color: #00ff00 !important;
+}
+
+.articletag-418challenge .popover-billboard {
+margin-bottom: 0 !important;
+}
+</style>
+  </head>
+    <body
+      class="sans-serif-article-body default-header"
+      data-user-status="logged-out"
+      data-is-root-subforem="false"
+        data-subforem-id="1"
+      data-side-nav-visible="true"
+      data-community-name="DEV Community"
+      data-subscription-icon="https://assets.dev.to/assets/subscription-icon-805dfa7ac7dd660f07ed8d654877270825b07a92a03841aa99a1093bd00431b2.png"
+      data-locale="en"
+      data-honeybadger-key="hbp_nqu4Y66HuEKlD6YRGssZuRQnPOjDm50J8Zkr"
+      data-deployed-at="2026-04-13T13:19:06Z"
+      data-latest-commit-id="d02e37a3eb604e2eca86470a89ea48d811e4837e"
+      data-ga-tracking="UA-71991109-1"
+      data-cookie-banner-user-context="logged_out_only"
+      data-cookie-banner-platform-context="off"
+      data-algolia-id="PRSOBFP46H"
+      data-algolia-search-key="9aa7d31610cba78851c9b1f63776a9dd"
+      data-algolia-display="true"
+      data-dynamic-url-component="bmar11"
+      data-ga4-tracking-id="G-TYEM8Y3JN3">
+      
+      <script>
+        if (navigator.userAgent === 'ForemWebView/1' || window.frameElement) {
+          document.body.classList.add("hidden-shell");
+        }
+          if (new Date() > new Date("2026-02-04T09:00:00-05:00")) {
+            document.body.dataset.sideNavVisible = "false";
+          } 
+      </script>
+
+      <link rel="stylesheet" href="https://assets.dev.to/assets/minimal-5baa3fdf02812a21566564aed3685c46bb3d6b786812852cbe0b0420b2fbaf6f.css" media="all" id="secondary-minimal-stylesheet" />
+<link rel="stylesheet" href="https://assets.dev.to/assets/views-0681ac17bf1546793c4b7ef7c615b2defec919060aefb3b9c287471e8cb77bf2.css" media="all" id="secondary-views-stylesheet" />
+<link rel="stylesheet" href="https://assets.dev.to/assets/crayons-d2b52af1d86a9ac9a8bc215ed34ffad7a94af68f4abd1cdcae2a8c1a4385cd23.css" media="all" id="secondary-crayons-stylesheet" />
+
+      <div id="body-styles">
+        <style>
+          :root {
+            --accent-brand-lighter-rgb: 86, 105, 285;
+            --accent-brand-rgb: 64, 78, 211;
+            --accent-brand-darker-rgb: 51, 62, 169;
+          }
+        </style>
+      </div>
+      <div id="audiocontent" data-podcast="">
+        
+      </div>
+      <div class="navigation-progress" id="navigation-progress"></div>
+
+<header id="topbar" class="crayons-header topbar print-hidden">
+  <span id="route-change-target" tabindex="-1"></span>
+  <a href="blog.html#main-content" class="skip-content-link">Skip to content</a>
+  <div class="crayons-header__container">
+    <span class="inline-block m:hidden ">
+      <button class="c-btn c-btn--icon-alone js-hamburger-trigger mx-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-labelledby="a60u81owtmeqn0a7woxp7yoogczi7gtg" class="crayons-icon"><title id="a60u81owtmeqn0a7woxp7yoogczi7gtg">Navigation menu</title>
+    <path d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z"></path>
+</svg>
+
+      </button>
+    </span>
+    <a href="https://dev.to/" class="site-logo" aria-label="DEV Community Home" >
+    <img class="site-logo__img"
+         src="https://media2.dev.to/dynamic/image/quality=100/https://dev-to-uploads.s3.amazonaws.com/uploads/logos/resized_logo_UQww2soKuUsjaOGNB38o.png"
+         style="aspect-ratio: 10 / 8"
+         alt="DEV Community">
+</a>
+
+
+    <div class="crayons-header--search js-search-form" id="header-search">
+      <form accept-charset="UTF-8" method="get" action="https://dev.to/search" role="search">
+        <div class="crayons-fields crayons-fields--horizontal">
+          <div class="crayons-field flex-1 relative">
+            <input id="search-input" class="crayons-header--search-input crayons-textfield js-search-input" type="text" id="nav-search" name="q" placeholder="Search..." autocomplete="off" />
+            <button type="submit" aria-label="Search" class="c-btn c-btn--icon-alone absolute inset-px right-auto mt-0 py-0">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-labelledby="aor41ickjal7m2sq342rgxfbsgzo3tu9" aria-hidden="true" class="crayons-icon"><title id="aor41ickjal7m2sq342rgxfbsgzo3tu9">Search</title>
+    <path d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0111 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 01-1.969 5.617zm-2.006-.742A6.977 6.977 0 0018 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 004.875-1.975l.15-.15z"></path>
+</svg>
+
+            </button>
+
+            <a class="crayons-header--search-brand-indicator" href="https://www.algolia.com/developers/?utm_source=devto&utm_medium=referral" target="_blank" rel="noopener noreferrer">
+                Powered by Algolia
+                <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" width="24" height="24" viewBox="0 0 500 500.34" role="img" aria-labelledby="a3hnqi5vz09w79l69aft7gfuumpq5401" aria-hidden="true" class="crayons-icon"><title id="a3hnqi5vz09w79l69aft7gfuumpq5401">Search</title>
+  <defs></defs><path class="cls-1" d="M250,0C113.38,0,2,110.16,.03,246.32c-2,138.29,110.19,252.87,248.49,253.67,42.71,.25,83.85-10.2,120.38-30.05,3.56-1.93,4.11-6.83,1.08-9.52l-23.39-20.74c-4.75-4.22-11.52-5.41-17.37-2.92-25.5,10.85-53.21,16.39-81.76,16.04-111.75-1.37-202.04-94.35-200.26-206.1,1.76-110.33,92.06-199.55,202.8-199.55h202.83V407.68l-115.08-102.25c-3.72-3.31-9.43-2.66-12.43,1.31-18.47,24.46-48.56,39.67-81.98,37.36-46.36-3.2-83.92-40.52-87.4-86.86-4.15-55.28,39.65-101.58,94.07-101.58,49.21,0,89.74,37.88,93.97,86.01,.38,4.28,2.31,8.28,5.53,11.13l29.97,26.57c3.4,3.01,8.8,1.17,9.63-3.3,2.16-11.55,2.92-23.6,2.07-35.95-4.83-70.39-61.84-127.01-132.26-131.35-80.73-4.98-148.23,58.18-150.37,137.35-2.09,77.15,61.12,143.66,138.28,145.36,32.21,.71,62.07-9.42,86.2-26.97l150.36,133.29c6.45,5.71,16.62,1.14,16.62-7.48V9.49C500,4.25,495.75,0,490.51,0H250Z"></path>
+</svg>
+
+            </a>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="flex items-center h-100 ml-auto">
+        <div class="flex" id="authentication-top-nav-actions">
+          <span class="hidden m:block">
+            <a href="https://dev.to/enter?signup_subforem=1" class="c-link c-link--block mr-2 whitespace-nowrap ml-auto" data-no-instant>
+              Log in
+            </a>
+          </span>
+
+          <a href="https://dev.to/enter?signup_subforem=1&amp;state=new-user" data-tracking-id="ca_top_nav" data-tracking-source="top_navbar" class="c-cta c-cta--branded whitespace-nowrap mr-2" data-no-instant>
+            Create account
+          </a>
+        </div>
+    </div>
+  </div>
+</header>
+
+<div class="hamburger">
+  <div class="hamburger__content">
+    <header class="hamburger__content__header">
+      <h2 class="fs-l fw-bold flex-1 break-word lh-tight">DEV Community</h2>
+
+      <button class="c-btn c-btn--icon-alone js-hamburger-trigger shrink-0" aria-label="Close">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-labelledby="agr6hgu0xxlozzsl5ywutzs2tjomsv0a" aria-hidden="true" class="crayons-icon c-btn__icon"><title id="agr6hgu0xxlozzsl5ywutzs2tjomsv0a">Close</title><path d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636l4.95 4.95z"></path></svg>
+
+      </button>
+    </header>
+
+    <div class="p-2 js-navigation-links-container" id="authentication-hamburger-actions">
+    </div>
+  </div>
+  <div class="hamburger__overlay js-hamburger-trigger"></div>
+</div>
+
+
+      <div id="active-broadcast" class="broadcast-wrapper"></div>
+<div id="page-content" class="wrapper stories stories-index" data-current-page="stories-index">
+  <div id="page-content-inner" data-internal-nav="false">
+    <div id="page-route-change" class="screen-reader-only" aria-live="polite" aria-atomic="true"></div>
+
+    
+  <script type="application/ld+json">
+    {"@context":"http://schema.org","@type":"Organization","mainEntityOfPage":{"@type":"WebPage","@id":"https://dev.to/theodinproject"},"url":"https://dev.to/theodinproject","image":"https://media2.dev.to/dynamic/image/width=320,height=320,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F4964%2Fa12510cf-f66e-4f86-9419-44390dd584a9.jpeg","name":"The Odin Project","description":"An open source online web development curriculum."}
+  </script>
+<style>
+  :root {
+    --profile-brand-color: #b4823b;
+  }
+  /* === COMPACT MODE (brand color bar) === */
+  .org-header-cover {
+    background: var(--profile-brand-color);
+    height: 4px;
+  }
+  .org-header-main {
+    display: flex;
+    align-items: center;
+    gap: var(--su-4);
+    padding: var(--su-4);
+  }
+  .org-header-logo {
+    width: 80px;
+    height: 80px;
+    border-radius: var(--radius);
+    overflow: hidden;
+    border: 1px solid rgba(0,0,0,0.1);
+    background-color: var(--card-bg);
+    flex-shrink: 0;
+  }
+  .org-header-logo img {
+    border-radius: var(--radius);
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .org-header-text {
+    flex: 1;
+    min-width: 0;
+  }
+  .org-header-text h1 {
+    font-size: var(--fs-2xl);
+    line-height: 1.2;
+  }
+  .org-header-actions { flex-shrink: 0; }
+  .org-header-brand-line {
+    height: 3px;
+    background: var(--profile-brand-color);
+  }
+</style>
+
+<div class="org-header-cover"></div>
+<div class="org-header-brand-line"></div>
+<div class="crayons-layout crayons-layout--limited-l">
+  <div class="org-header-main">
+    <span class="org-header-logo">
+      <img src="https://media2.dev.to/dynamic/image/width=320,height=320,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F4964%2Fa12510cf-f66e-4f86-9419-44390dd584a9.jpeg" alt="The Odin Project logo" title="The Odin Project profile picture">
+    </span>
+
+    <div class="org-header-text">
+      <h1 class="crayons-title fw-heavy">
+        The Odin Project
+      </h1>
+    </div>
+
+    <div class="org-header-actions flex items-center">
+      <button
+        id="user-follow-butt"
+        class="crayons-btn whitespace-nowrap follow-action-button"
+        data-info='{&quot;id&quot;:4964,&quot;className&quot;:&quot;Organization&quot;,&quot;name&quot;:&quot;The Odin Project&quot;}'>
+        Follow
+      </button>
+      <style id="org-buttons-style">
+        #org-settings-btn, #org-admin-btn { display: none !important; }
+      </style>
+      <script>
+        try {
+          var userStr = localStorage.getItem('current_user');
+          if (userStr) {
+            var currentUser = JSON.parse(userStr);
+            var orgId = 4964;
+            var css = '';
+            if (currentUser.admin_organization_ids && currentUser.admin_organization_ids.includes(orgId)) {
+              css += '#org-settings-btn { display: inline-flex !important; } ';
+            }
+            if (currentUser.admin) {
+              css += '#org-admin-btn { display: inline-flex !important; } ';
+            }
+            if (css) {
+              document.getElementById('org-buttons-style').innerHTML += css;
+            }
+          }
+        } catch (e) {
+          // ignore
+        }
+      </script>
+      <a href="https://dev.to/theodinproject/settings" id="org-settings-btn" class="crayons-btn crayons-btn--ghost-dimmed crayons-btn--icon ml-1" title="Organization Settings" data-org-id="4964">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-labelledby="al2m0d6e0cc8y2pjdke794tri6ep6nma" class="crayons-icon"><title id="al2m0d6e0cc8y2pjdke794tri6ep6nma">Organization Settings</title>
+    <path d="M12 1l9.5 5.5v11L12 23l-9.5-5.5v-11L12 1zm0 2.311L4.5 7.653v8.694l7.5 4.342 7.5-4.342V7.653L12 3.311zM12 16a4 4 0 110-8 4 4 0 010 8zm0-2a2 2 0 100-4 2 2 0 000 4z"></path>
+</svg>
+
+      </a>
+      <a href="https://dev.to/admin/content_manager/organizations/4964" id="org-admin-btn" class="crayons-btn crayons-btn--ghost-dimmed crayons-btn--icon ml-1" title="Admin" data-no-instant>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" role="img" aria-labelledby="a74pv3qawdxa8iexrgmx1s8nv4eqefe2" class="crayons-icon"><title id="a74pv3qawdxa8iexrgmx1s8nv4eqefe2">Admin</title><path d="M5.33 3.271a3.5 3.5 0 0 1 4.254 4.963l10.709 10.71-1.414 1.414-10.71-10.71a3.502 3.502 0 0 1-4.962-4.255L5.444 7.63a1.5 1.5 0 1 0 2.121-2.121L5.329 3.27zm10.367 1.884l3.182-1.768 1.414 1.414-1.768 3.182-1.768.354-2.12 2.121-1.415-1.414 2.121-2.121.354-1.768zm-6.718 8.132l1.414 1.414-5.303 5.303a1 1 0 0 1-1.492-1.327l.078-.087 5.303-5.303z"></path></svg>
+
+      </a>
+      <div class="profile-dropdown ml-1 s:relative" data-organizationname="The Odin Project">
+        <button id="organization-profile-dropdown" aria-expanded="false" aria-controls="organization-profile-dropdownmenu" aria-haspopup="true" class="crayons-btn crayons-btn--ghost-dimmed crayons-btn--icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="aqwhjanvxeh67vt3k9w2krmjr494zmnf" class="crayons-icon dropdown-icon"><title id="aqwhjanvxeh67vt3k9w2krmjr494zmnf">Organization actions</title><path fill-rule="evenodd" clip-rule="evenodd" d="M7 12a2 2 0 11-4 0 2 2 0 014 0zm7 0a2 2 0 11-4 0 2 2 0 014 0zm5 2a2 2 0 100-4 2 2 0 000 4z"></path></svg>
+
+        </button>
+        <div id="organization-profile-dropdownmenu" class="crayons-dropdown left-2 right-2 s:right-0 s:left-auto top-100 mt-1">
+          <span class="report-abuse-link-wrapper" data-path="/report-abuse?url=https://dev.to/theodinproject"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="px-4 m:px-0 pb-4">
+        <p class="fs-base color-base-90 mb-3">An open source online web development curriculum.</p>
+
+      <div class="fs-s color-base-60 flex flex-wrap items-center gap-y-1">
+          <a href="https://theodinproject.com/" target="_blank" rel="noopener noreferrer" class="mr-4 color-base-60 hover:color-base-90">
+            theodinproject.com
+          </a>
+        <span class="flex items-center gap-1 mr-4">
+            <a href="https://twitter.com/TheOdinProject" target="_blank" rel="noopener me" class="p-1 align-middle inline-block color-base-60 hover:color-base-90">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="-50 -50 620 620" role="img" aria-labelledby="aele10zp4mdlt5008hn7wctapjftd9bh" class="crayons-icon" width="24" height="24"><title id="aele10zp4mdlt5008hn7wctapjftd9bh">Twitter</title>
+  <path d="M394.033.25h76.67L303.202 191.693l197.052 260.511h-154.29L225.118 294.205 86.844 452.204H10.127l179.16-204.77L.254.25H158.46l109.234 144.417zm-26.908 406.063h42.483L135.377 43.73h-45.59z" fill="#000"></path>
+</svg>
+
+            </a>
+            <a href="https://github.com/TheOdinProject" target="_blank" rel="noopener me" class="p-1 align-middle inline-block color-base-60 hover:color-base-90">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-labelledby="a45afncpppm0h4dv0755v1bhwjnr31b4" class="crayons-icon"><title id="a45afncpppm0h4dv0755v1bhwjnr31b4">GitHub</title>
+    <path d="M12 2C6.475 2 2 6.475 2 12a9.994 9.994 0 006.838 9.488c.5.087.687-.213.687-.476 0-.237-.013-1.024-.013-1.862-2.512.463-3.162-.612-3.362-1.175-.113-.288-.6-1.175-1.025-1.413-.35-.187-.85-.65-.013-.662.788-.013 1.35.725 1.538 1.025.9 1.512 2.338 1.087 2.912.825.088-.65.35-1.087.638-1.337-2.225-.25-4.55-1.113-4.55-4.938 0-1.088.387-1.987 1.025-2.688-.1-.25-.45-1.275.1-2.65 0 0 .837-.262 2.75 1.026a9.28 9.28 0 012.5-.338c.85 0 1.7.112 2.5.337 1.912-1.3 2.75-1.024 2.75-1.024.55 1.375.2 2.4.1 2.65.637.7 1.025 1.587 1.025 2.687 0 3.838-2.337 4.688-4.562 4.938.362.312.675.912.675 1.85 0 1.337-.013 2.412-.013 2.75 0 .262.188.574.688.474A10.016 10.016 0 0022 12c0-5.525-4.475-10-10-10z"></path>
+</svg>
+
+            </a>
+        </span>
+        <span class="flex items-center mr-4">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-labelledby="aiz9q9kiak3rm7yqyrjtjd78emnr8tfg" class="crayons-icon mr-1 shrink-0"><title id="aiz9q9kiak3rm7yqyrjtjd78emnr8tfg">Joined</title>
+    <path d="M8 6v3.999h3V6h2v3.999h3V6h2v3.999L19 10a3 3 0 012.995 2.824L22 13v1c0 1.014-.377 1.94-.999 2.645L21 21a1 1 0 01-1 1H4a1 1 0 01-1-1v-4.36a4.025 4.025 0 01-.972-2.182l-.022-.253L2 14v-1a3 3 0 012.824-2.995L5 10l1-.001V6h2zm11 6H5a1 1 0 00-.993.883L4 13v.971l.003.147a2 2 0 003.303 1.4c.363-.312.602-.744.674-1.218l.015-.153.005-.176c.036-1.248 1.827-1.293 1.989-.134l.01.134.004.147a2 2 0 003.992.031l.012-.282c.124-1.156 1.862-1.156 1.986 0l.012.282a2 2 0 003.99 0L20 14v-1a1 1 0 00-.883-.993L19 12zM7 1c1.32.871 1.663 2.088 1.449 2.888a1.5 1.5 0 11-2.898-.776C5.85 2.002 7 2.5 7 1zm5 0c1.32.871 1.663 2.088 1.449 2.888a1.5 1.5 0 01-2.898-.776C10.85 2.002 12 2.5 12 1zm5 0c1.32.871 1.663 2.088 1.449 2.888a1.5 1.5 0 01-2.898-.776C15.85 2.002 17 2.5 17 1z"></path>
+</svg>
+
+          Joined on <time datetime="2021-11-07T04:35:31Z" class="date">Nov 7, 2021</time>
+        </span>
+      </div>
+    </div>
+</div>
+
+<script src="https://assets.dev.to/assets/organizationDropdown-d21cc2bfb11e5790e6a267115a681b57c5a4b76af2367e217ba7dd2ad625ace7.js" defer="defer"></script>
+
+<div
+  class="crayons-layout crayons-layout--limited-l crayons-layout--2-cols crayons-layout--2-cols--1-2 pt-4 m:pt-0"
+  id="index-container"
+  style="--accent-brand: #cc9443; --accent-brand-darker: #a37636; --accent-brand-lighter: #113c85a; --accent-brand-rgb: 204, 148, 67; --accent-brand-darker-rgb: 163, 118, 54; --accent-brand-lighter-rgb: 275, 200, 90; --button-primary-bg: #cc9443; --button-primary-bg-hover: #a37636; --link-branded-color: #cc9443; --link-branded-color-hover: #a37636;"
+  data-params="{&quot;organization_id&quot;:4964,&quot;username&quot;:&quot;theodinproject&quot;,&quot;sort_by&quot;:&quot;published_at&quot;,&quot;sort_direction&quot;:&quot;desc&quot;}" data-which=""
+  data-feed="base-feed"
+  data-articles-since="">
+
+  <div class="crayons-layout__sidebar-left crayons-layout__content">
+    <div id="sidebar-left" class="m:gap-4 hidden m:grid js-user-info">
+    <div class="crayons-card crayons-card--secondary org-sidebar-widget">
+      <header class="crayons-card__header">
+        <h3 class="crayons-subtitle-3">
+          Meet the team
+        </h3>
+      </header>
+      <div class="org-sidebar-widget-body">
+          <div class="org-sidebar-widget-user-pic">
+            <a href="https://dev.to/codyloyd">
+              <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F9204%2F49585909fc0c4b2148f1cc821e0c2926.jpeg" alt="codyloyd profile image" loading="lazy" />
+            </a>
+          </div>
+          <div class="org-sidebar-widget-user-pic">
+            <a href="https://dev.to/thatblindgeye">
+              <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F750898%2F01cc3479-308b-4013-a54a-e604b793f91b.png" alt="thatblindgeye profile image" loading="lazy" />
+            </a>
+          </div>
+          <div class="org-sidebar-widget-user-pic">
+            <a href="https://dev.to/couchoftomato">
+              <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F525040%2F553ec1db-117e-40d9-9ed6-98634036f968.jpeg" alt="couchoftomato profile image" loading="lazy" />
+            </a>
+          </div>
+          <div class="org-sidebar-widget-user-pic">
+            <a href="https://dev.to/i3uckwheat">
+              <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F750896%2F2a9408ab-5caf-4c08-9d49-c017ef2e1d9a.png" alt="i3uckwheat profile image" loading="lazy" />
+            </a>
+          </div>
+          <div class="org-sidebar-widget-user-pic">
+            <a href="https://dev.to/01zulfi">
+              <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F962233%2F1d3e65e6-62f5-49c4-b2d8-2f0726038943.png" alt="01zulfi profile image" loading="lazy" />
+            </a>
+          </div>
+          <div class="org-sidebar-widget-user-pic">
+            <a href="https://dev.to/lpsv">
+              <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F748114%2F22b1cf39-e0f8-4ea5-91d5-9bf8bbf55573.png" alt="lpsv profile image" loading="lazy" />
+            </a>
+          </div>
+          <div class="org-sidebar-widget-user-pic">
+            <a href="https://dev.to/kevinmulhern">
+              <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F748120%2F25977ab1-833d-45ac-93e4-a25cef8e785b.jpeg" alt="kevinmulhern profile image" loading="lazy" />
+            </a>
+          </div>
+          <div class="org-sidebar-widget-user-pic">
+            <a href="https://dev.to/bycdiaz">
+              <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F981450%2F57450301-93df-47a6-b4fb-68c29130f6d7.jpeg" alt="bycdiaz profile image" loading="lazy" />
+            </a>
+          </div>
+          <div class="org-sidebar-widget-user-pic">
+            <a href="https://dev.to/rlmoser99">
+              <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2934145%2F5f2aef72-d57b-4bf8-81f0-05bb436ea5a5.jpeg" alt="rlmoser99 profile image" loading="lazy" />
+            </a>
+          </div>
+      </div>
+    </div>
+    <div class="crayons-card crayons-card--secondary">
+      <header class="crayons-card__header">
+        <h3 class="crayons-subtitle-3">
+          Our story
+        </h3>
+      </header>
+      <div class="crayons-card__body">
+        <p>The Odin Project is one of those "What I wish I had when I was learning" resources. Not everyone has access to a computer science education or the funds to attend an intensive coding school and neither of those is right for everyone anyway. This project is designed to fill in the gap for people who are trying to hack it on their own but still want a high quality education.</p>
+      </div>
+    </div>
+    <div class="crayons-card crayons-card--secondary">
+      <header class="crayons-card__header">
+        <h3 class="crayons-subtitle-3">Our stack</h3>
+      </header>
+      <div class="crayons-card__body">
+        <p>React, Ruby on Rails, NodeJS</p>
+      </div>
+    </div>
+    <div class="crayons-card crayons-card--secondary p-4">
+      <div class="flex items-center mb-4">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-labelledby="afx6cndfls69up8fdceuqgw0l7l807cn" class="crayons-icon mr-3 color-base"><title id="afx6cndfls69up8fdceuqgw0l7l807cn">Post</title>
+    <path d="M19 22H5a3 3 0 01-3-3V3a1 1 0 011-1h14a1 1 0 011 1v12h4v4a3 3 0 01-3 3zm-1-5v2a1 1 0 002 0v-2h-2zm-2 3V4H4v15a1 1 0 001 1h11zM6 7h8v2H6V7zm0 4h8v2H6v-2zm0 4h5v2H6v-2z"></path>
+</svg>
+
+        18 posts published
+      </div>
+      <div class="flex items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-labelledby="a8k5ft9467i5351m794as4c0u8qipu34" class="crayons-icon mr-3 color-base"><title id="a8k5ft9467i5351m794as4c0u8qipu34">Member</title>
+    <path d="M10 19.748V16.4c0-1.283.995-2.292 2.467-2.868A8.482 8.482 0 0 0 9.5 13c-1.89 0-3.636.617-5.047 1.66A8.018 8.018 0 0 0 10 19.748Zm8.88-3.662C18.485 15.553 17.17 15 15.5 15c-2.006 0-3.5.797-3.5 1.4V20a7.995 7.995 0 0 0 6.88-3.914ZM9.55 11.5a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5Zm5.95 1a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10Z"></path>
+</svg>
+
+        9 members
+      </div>
+    </div>
+</div>
+
+  </div>
+
+   <main class="crayons-layout__content articles-list" id="articles-list">
+    <div class="substories" id="substories">
+        <div id="organization-article-index"></div>
+<div class="crayons-story " data-feed-content-id="2409613" data-content-user-id="981450">
+  <a href="https://dev.to/theodinproject/pursuing-best-practices-is-a-bad-practice-when-youre-new-37pb" aria-labelledby="article-link-2409613" class="crayons-story__hidden-navigation-link">Pursuing Best Practices is a bad practice (When You&#39;re New)</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="https://dev.to/bycdiaz" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F981450%2F57450301-93df-47a6-b4fb-68c29130f6d7.jpeg" alt="bycdiaz profile" class="crayons-avatar__image" loading="lazy" />
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="https://dev.to/bycdiaz" class="crayons-story__secondary fw-medium m:hidden">
+              Carlos Diaz
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-2409613" aria-controls="story-author-preview-content-2409613" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Carlos Diaz profile details">
+                Carlos Diaz
+                
+              </button>
+              <div
+                id="story-author-preview-content-2409613"
+                class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0"
+                style="border-top-color: var(--card-color);"
+                data-repositioning-dropdown="true"
+                data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="https://dev.to/bycdiaz" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img
+                          src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F981450%2F57450301-93df-47a6-b4fb-68c29130f6d7.jpeg"
+                          class="crayons-avatar__image"
+                          alt=""
+                          loading="lazy" />
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Carlos Diaz</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button
+                      class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100"
+                      data-info='{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:981450,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Carlos Diaz&quot;}'>
+                      Follow
+                    </button>
+                  </div>
+                  <div
+                    class="author-preview-metadata-container"
+                    data-author-id="981450"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/theodinproject/pursuing-best-practices-is-a-bad-practice-when-youre-new-37pb" class="crayons-story__tertiary fs-xs"><time datetime="2025-04-15T18:38:51Z">Apr 15 &#39;25</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1744742331"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/theodinproject/pursuing-best-practices-is-a-bad-practice-when-youre-new-37pb" data-preload-image="" id="article-link-2409613">
+          Pursuing Best Practices is a bad practice (When You&#39;re New)
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(137, 6, 6, 0.10);
+        --tag-prefix: #890606;
+        --tag-bg-hover: rgba(137, 6, 6, 0.10);
+        --tag-prefix-hover: #890606;
+      " href="https://dev.to/t/programming"><span class="crayons-tag__prefix">#</span>programming</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(0, 131, 53, 0.10);
+        --tag-prefix: #008335;
+        --tag-bg-hover: rgba(0, 131, 53, 0.10);
+        --tag-prefix-hover: #008335;
+      " href="https://dev.to/t/beginners"><span class="crayons-tag__prefix">#</span>beginners</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(255, 102, 237, 0.10);
+        --tag-prefix: #ff66ed;
+        --tag-bg-hover: rgba(255, 102, 237, 0.10);
+        --tag-prefix-hover: #ff66ed;
+      " href="https://dev.to/t/learning"><span class="crayons-tag__prefix">#</span>learning</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(175, 39, 242, 0.10);
+        --tag-prefix: #af27f2;
+        --tag-bg-hover: rgba(175, 39, 242, 0.10);
+        --tag-prefix-hover: #af27f2;
+      " href="https://dev.to/t/coding"><span class="crayons-tag__prefix">#</span>coding</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+          <a href="https://dev.to/theodinproject/pursuing-best-practices-is-a-bad-practice-when-youre-new-37pb" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count data-reactable-id="2409613" aria-label="Add a comment to post - Pursuing Best Practices is a bad practice (When You&#39;re New)">
+            <div class="multiple_reactions_aggregate">
+              <span class="multiple_reactions_icons_container" dir="rtl">
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg" width="18" height="18" />
+                  </span>
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/raised-hands-74b2099fd66a39f2d7eed9305ee0f4553df0eb7b4f11b01b6b1b499973048fe5.svg" width="18" height="18" />
+                  </span>
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18" />
+                  </span>
+              </span>
+              <span class="aggregate_reactions_counter">144<span class="hidden s:inline"> reactions</span></span>
+            </div>
+          </a>
+            <a href="https://dev.to/theodinproject/pursuing-best-practices-is-a-bad-practice-when-youre-new-37pb#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Pursuing Best Practices is a bad practice (When You&#39;re New)">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="anh0vsuyruufy0tf57fx8dno9ynhod5b" class="crayons-icon"><title id="anh0vsuyruufy0tf57fx8dno9ynhod5b">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              16<span class="hidden s:inline"> comments</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            8 min read
+          </small>
+            <button
+              type="button"
+              id="article-save-button-2409613"
+              class="c-btn c-btn--icon-alone bookmark-button"
+              data-reactable-id="2409613"
+              data-article-author-id="981450"
+              aria-label="Save post Pursuing Best Practices is a bad practice (When You&#39;re New) to reading list"
+              title="Save post Pursuing Best Practices is a bad practice (When You&#39;re New) to reading list">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="crayons-story " data-feed-content-id="2335388" data-content-user-id="2934145">
+  <a href="https://dev.to/theodinproject/why-learning-to-code-is-so-damn-hard-11nn" aria-labelledby="article-link-2335388" class="crayons-story__hidden-navigation-link">Why Learning to Code is So Damn Hard</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="https://dev.to/rlmoser99" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2934145%2F5f2aef72-d57b-4bf8-81f0-05bb436ea5a5.jpeg" alt="rlmoser99 profile" class="crayons-avatar__image" loading="lazy" />
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="https://dev.to/rlmoser99" class="crayons-story__secondary fw-medium m:hidden">
+              Rachel Moser
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-2335388" aria-controls="story-author-preview-content-2335388" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Rachel Moser profile details">
+                Rachel Moser
+                
+              </button>
+              <div
+                id="story-author-preview-content-2335388"
+                class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0"
+                style="border-top-color: var(--card-color);"
+                data-repositioning-dropdown="true"
+                data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="https://dev.to/rlmoser99" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img
+                          src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2934145%2F5f2aef72-d57b-4bf8-81f0-05bb436ea5a5.jpeg"
+                          class="crayons-avatar__image"
+                          alt=""
+                          loading="lazy" />
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Rachel Moser</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button
+                      class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100"
+                      data-info='{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:2934145,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Rachel Moser&quot;}'>
+                      Follow
+                    </button>
+                  </div>
+                  <div
+                    class="author-preview-metadata-container"
+                    data-author-id="2934145"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/theodinproject/why-learning-to-code-is-so-damn-hard-11nn" class="crayons-story__tertiary fs-xs"><time datetime="2025-03-16T13:04:55Z">Mar 16 &#39;25</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1742130295"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/theodinproject/why-learning-to-code-is-so-damn-hard-11nn" data-preload-image="" id="article-link-2335388">
+          Why Learning to Code is So Damn Hard
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(86, 39, 101, 0.10);
+        --tag-prefix: #562765;
+        --tag-bg-hover: rgba(86, 39, 101, 0.10);
+        --tag-prefix-hover: #562765;
+      " href="https://dev.to/t/webdev"><span class="crayons-tag__prefix">#</span>webdev</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(137, 6, 6, 0.10);
+        --tag-prefix: #890606;
+        --tag-bg-hover: rgba(137, 6, 6, 0.10);
+        --tag-prefix-hover: #890606;
+      " href="https://dev.to/t/programming"><span class="crayons-tag__prefix">#</span>programming</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(64, 78, 211, 0.10);
+        --tag-prefix: #404ED3;
+        --tag-bg-hover: rgba(64, 78, 211, 0.10);
+        --tag-prefix-hover: #404ED3;
+      " href="https://dev.to/t/theodinproject"><span class="crayons-tag__prefix">#</span>theodinproject</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+          <a href="https://dev.to/theodinproject/why-learning-to-code-is-so-damn-hard-11nn" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count data-reactable-id="2335388" aria-label="Add a comment to post - Why Learning to Code is So Damn Hard">
+            <div class="multiple_reactions_aggregate">
+              <span class="multiple_reactions_icons_container" dir="rtl">
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/raised-hands-74b2099fd66a39f2d7eed9305ee0f4553df0eb7b4f11b01b6b1b499973048fe5.svg" width="18" height="18" />
+                  </span>
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg" width="18" height="18" />
+                  </span>
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18" />
+                  </span>
+              </span>
+              <span class="aggregate_reactions_counter">2118<span class="hidden s:inline"> reactions</span></span>
+            </div>
+          </a>
+            <a href="https://dev.to/theodinproject/why-learning-to-code-is-so-damn-hard-11nn#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Why Learning to Code is So Damn Hard">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ark1i13qo2bm9ax8d3ycwagh9x5r1mqn" class="crayons-icon"><title id="ark1i13qo2bm9ax8d3ycwagh9x5r1mqn">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              453<span class="hidden s:inline"> comments</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            16 min read
+          </small>
+            <button
+              type="button"
+              id="article-save-button-2335388"
+              class="c-btn c-btn--icon-alone bookmark-button"
+              data-reactable-id="2335388"
+              data-article-author-id="2934145"
+              aria-label="Save post Why Learning to Code is So Damn Hard to reading list"
+              title="Save post Why Learning to Code is So Damn Hard to reading list">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="crayons-story " data-feed-content-id="1928247" data-content-user-id="962233">
+  <a href="https://dev.to/theodinproject/updates-to-the-node-course-postgresql-prisma-and-more-4dl3" aria-labelledby="article-link-1928247" class="crayons-story__hidden-navigation-link">Updates to the Node course: PostgreSQL, Prisma and more!</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="https://dev.to/01zulfi" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F962233%2F1d3e65e6-62f5-49c4-b2d8-2f0726038943.png" alt="01zulfi profile" class="crayons-avatar__image" loading="lazy" />
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="https://dev.to/01zulfi" class="crayons-story__secondary fw-medium m:hidden">
+              01zulfi
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-1928247" aria-controls="story-author-preview-content-1928247" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="01zulfi profile details">
+                01zulfi
+                
+              </button>
+              <div
+                id="story-author-preview-content-1928247"
+                class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0"
+                style="border-top-color: var(--card-color);"
+                data-repositioning-dropdown="true"
+                data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="https://dev.to/01zulfi" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img
+                          src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F962233%2F1d3e65e6-62f5-49c4-b2d8-2f0726038943.png"
+                          class="crayons-avatar__image"
+                          alt=""
+                          loading="lazy" />
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">01zulfi</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button
+                      class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100"
+                      data-info='{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:962233,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;01zulfi&quot;}'>
+                      Follow
+                    </button>
+                  </div>
+                  <div
+                    class="author-preview-metadata-container"
+                    data-author-id="962233"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/theodinproject/updates-to-the-node-course-postgresql-prisma-and-more-4dl3" class="crayons-story__tertiary fs-xs"><time datetime="2024-07-18T19:08:58Z">Jul 18 &#39;24</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1721329738"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/theodinproject/updates-to-the-node-course-postgresql-prisma-and-more-4dl3" data-preload-image="" id="article-link-1928247">
+          Updates to the Node course: PostgreSQL, Prisma and more!
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+          <a href="https://dev.to/theodinproject/updates-to-the-node-course-postgresql-prisma-and-more-4dl3" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count data-reactable-id="1928247" aria-label="Add a comment to post - Updates to the Node course: PostgreSQL, Prisma and more!">
+            <div class="multiple_reactions_aggregate">
+              <span class="multiple_reactions_icons_container" dir="rtl">
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/raised-hands-74b2099fd66a39f2d7eed9305ee0f4553df0eb7b4f11b01b6b1b499973048fe5.svg" width="18" height="18" />
+                  </span>
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg" width="18" height="18" />
+                  </span>
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18" />
+                  </span>
+              </span>
+              <span class="aggregate_reactions_counter">470<span class="hidden s:inline"> reactions</span></span>
+            </div>
+          </a>
+            <a href="https://dev.to/theodinproject/updates-to-the-node-course-postgresql-prisma-and-more-4dl3#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Updates to the Node course: PostgreSQL, Prisma and more!">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a2k7kndajauoorngycqzfl0eqseb3ntl" class="crayons-icon"><title id="a2k7kndajauoorngycqzfl0eqseb3ntl">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              36<span class="hidden s:inline"> comments</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            2 min read
+          </small>
+            <button
+              type="button"
+              id="article-save-button-1928247"
+              class="c-btn c-btn--icon-alone bookmark-button"
+              data-reactable-id="1928247"
+              data-article-author-id="962233"
+              aria-label="Save post Updates to the Node course: PostgreSQL, Prisma and more! to reading list"
+              title="Save post Updates to the Node course: PostgreSQL, Prisma and more! to reading list">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="crayons-story " data-feed-content-id="1584029" data-content-user-id="981450">
+  <a href="https://dev.to/theodinproject/memorization-and-learning-to-code-1b6h" aria-labelledby="article-link-1584029" class="crayons-story__hidden-navigation-link">Memorization and learning to code</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="https://dev.to/bycdiaz" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F981450%2F57450301-93df-47a6-b4fb-68c29130f6d7.jpeg" alt="bycdiaz profile" class="crayons-avatar__image" loading="lazy" />
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="https://dev.to/bycdiaz" class="crayons-story__secondary fw-medium m:hidden">
+              Carlos Diaz
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-1584029" aria-controls="story-author-preview-content-1584029" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Carlos Diaz profile details">
+                Carlos Diaz
+                
+              </button>
+              <div
+                id="story-author-preview-content-1584029"
+                class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0"
+                style="border-top-color: var(--card-color);"
+                data-repositioning-dropdown="true"
+                data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="https://dev.to/bycdiaz" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img
+                          src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F981450%2F57450301-93df-47a6-b4fb-68c29130f6d7.jpeg"
+                          class="crayons-avatar__image"
+                          alt=""
+                          loading="lazy" />
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Carlos Diaz</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button
+                      class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100"
+                      data-info='{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:981450,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Carlos Diaz&quot;}'>
+                      Follow
+                    </button>
+                  </div>
+                  <div
+                    class="author-preview-metadata-container"
+                    data-author-id="981450"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/theodinproject/memorization-and-learning-to-code-1b6h" class="crayons-story__tertiary fs-xs"><time datetime="2023-08-30T03:03:14Z">Aug 30 &#39;23</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1693364594"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/theodinproject/memorization-and-learning-to-code-1b6h" data-preload-image="" id="article-link-1584029">
+          Memorization and learning to code
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(0, 131, 53, 0.10);
+        --tag-prefix: #008335;
+        --tag-bg-hover: rgba(0, 131, 53, 0.10);
+        --tag-prefix-hover: #008335;
+      " href="https://dev.to/t/beginners"><span class="crayons-tag__prefix">#</span>beginners</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(42, 7, 152, 0.10);
+        --tag-prefix: #2A0798;
+        --tag-bg-hover: rgba(42, 7, 152, 0.10);
+        --tag-prefix-hover: #2A0798;
+      " href="https://dev.to/t/productivity"><span class="crayons-tag__prefix">#</span>productivity</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(137, 6, 6, 0.10);
+        --tag-prefix: #890606;
+        --tag-bg-hover: rgba(137, 6, 6, 0.10);
+        --tag-prefix-hover: #890606;
+      " href="https://dev.to/t/programming"><span class="crayons-tag__prefix">#</span>programming</a>
+            <a class="crayons-tag  crayons-tag--monochrome " style="
+        --tag-bg: rgba(175, 39, 242, 0.10);
+        --tag-prefix: #af27f2;
+        --tag-bg-hover: rgba(175, 39, 242, 0.10);
+        --tag-prefix-hover: #af27f2;
+      " href="https://dev.to/t/coding"><span class="crayons-tag__prefix">#</span>coding</a>
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+          <a href="https://dev.to/theodinproject/memorization-and-learning-to-code-1b6h" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count data-reactable-id="1584029" aria-label="Add a comment to post - Memorization and learning to code">
+            <div class="multiple_reactions_aggregate">
+              <span class="multiple_reactions_icons_container" dir="rtl">
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg" width="18" height="18" />
+                  </span>
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/raised-hands-74b2099fd66a39f2d7eed9305ee0f4553df0eb7b4f11b01b6b1b499973048fe5.svg" width="18" height="18" />
+                  </span>
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18" />
+                  </span>
+              </span>
+              <span class="aggregate_reactions_counter">357<span class="hidden s:inline"> reactions</span></span>
+            </div>
+          </a>
+            <a href="https://dev.to/theodinproject/memorization-and-learning-to-code-1b6h#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Memorization and learning to code">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ah00ykcpdmtslwnwzc01ds0hdxbrh4ah" class="crayons-icon"><title id="ah00ykcpdmtslwnwzc01ds0hdxbrh4ah">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              50<span class="hidden s:inline"> comments</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            5 min read
+          </small>
+            <button
+              type="button"
+              id="article-save-button-1584029"
+              class="c-btn c-btn--icon-alone bookmark-button"
+              data-reactable-id="1584029"
+              data-article-author-id="981450"
+              aria-label="Save post Memorization and learning to code to reading list"
+              title="Save post Memorization and learning to code to reading list">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="crayons-story " data-feed-content-id="1554810" data-content-user-id="748120">
+  <a href="https://dev.to/theodinproject/coding-education-for-all-join-us-in-supporting-the-odin-project-3ilp" aria-labelledby="article-link-1554810" class="crayons-story__hidden-navigation-link">Coding Education for All: Join us in supporting The Odin Project</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="https://dev.to/kevinmulhern" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F748120%2F25977ab1-833d-45ac-93e4-a25cef8e785b.jpeg" alt="kevinmulhern profile" class="crayons-avatar__image" loading="lazy" />
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="https://dev.to/kevinmulhern" class="crayons-story__secondary fw-medium m:hidden">
+              Kevin Mulhern
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-1554810" aria-controls="story-author-preview-content-1554810" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Kevin Mulhern profile details">
+                Kevin Mulhern
+                
+              </button>
+              <div
+                id="story-author-preview-content-1554810"
+                class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0"
+                style="border-top-color: var(--card-color);"
+                data-repositioning-dropdown="true"
+                data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="https://dev.to/kevinmulhern" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img
+                          src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F748120%2F25977ab1-833d-45ac-93e4-a25cef8e785b.jpeg"
+                          class="crayons-avatar__image"
+                          alt=""
+                          loading="lazy" />
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Kevin Mulhern</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button
+                      class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100"
+                      data-info='{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:748120,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Kevin Mulhern&quot;}'>
+                      Follow
+                    </button>
+                  </div>
+                  <div
+                    class="author-preview-metadata-container"
+                    data-author-id="748120"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/theodinproject/coding-education-for-all-join-us-in-supporting-the-odin-project-3ilp" class="crayons-story__tertiary fs-xs"><time datetime="2023-07-31T14:50:20Z">Jul 31 &#39;23</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1690815020"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/theodinproject/coding-education-for-all-join-us-in-supporting-the-odin-project-3ilp" data-preload-image="" id="article-link-1554810">
+          Coding Education for All: Join us in supporting The Odin Project
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+          <a href="https://dev.to/theodinproject/coding-education-for-all-join-us-in-supporting-the-odin-project-3ilp" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count data-reactable-id="1554810" aria-label="Add a comment to post - Coding Education for All: Join us in supporting The Odin Project">
+            <div class="multiple_reactions_aggregate">
+              <span class="multiple_reactions_icons_container" dir="rtl">
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/raised-hands-74b2099fd66a39f2d7eed9305ee0f4553df0eb7b4f11b01b6b1b499973048fe5.svg" width="18" height="18" />
+                  </span>
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg" width="18" height="18" />
+                  </span>
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18" />
+                  </span>
+              </span>
+              <span class="aggregate_reactions_counter">109<span class="hidden s:inline"> reactions</span></span>
+            </div>
+          </a>
+            <a href="https://dev.to/theodinproject/coding-education-for-all-join-us-in-supporting-the-odin-project-3ilp#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Coding Education for All: Join us in supporting The Odin Project">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="ahainrzer1rjo00qi4plm2sryevrsw7b" class="crayons-icon"><title id="ahainrzer1rjo00qi4plm2sryevrsw7b">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              31<span class="hidden s:inline"> comments</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            2 min read
+          </small>
+            <button
+              type="button"
+              id="article-save-button-1554810"
+              class="c-btn c-btn--icon-alone bookmark-button"
+              data-reactable-id="1554810"
+              data-article-author-id="748120"
+              aria-label="Save post Coding Education for All: Join us in supporting The Odin Project to reading list"
+              title="Save post Coding Education for All: Join us in supporting The Odin Project to reading list">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="crayons-story " data-feed-content-id="1542483" data-content-user-id="962233">
+  <a href="https://dev.to/theodinproject/new-react-course-announcement-2a6f" aria-labelledby="article-link-1542483" class="crayons-story__hidden-navigation-link">New React Course Announcement</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="https://dev.to/01zulfi" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F962233%2F1d3e65e6-62f5-49c4-b2d8-2f0726038943.png" alt="01zulfi profile" class="crayons-avatar__image" loading="lazy" />
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="https://dev.to/01zulfi" class="crayons-story__secondary fw-medium m:hidden">
+              01zulfi
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-1542483" aria-controls="story-author-preview-content-1542483" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="01zulfi profile details">
+                01zulfi
+                
+              </button>
+              <div
+                id="story-author-preview-content-1542483"
+                class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0"
+                style="border-top-color: var(--card-color);"
+                data-repositioning-dropdown="true"
+                data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="https://dev.to/01zulfi" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img
+                          src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F962233%2F1d3e65e6-62f5-49c4-b2d8-2f0726038943.png"
+                          class="crayons-avatar__image"
+                          alt=""
+                          loading="lazy" />
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">01zulfi</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button
+                      class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100"
+                      data-info='{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:962233,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;01zulfi&quot;}'>
+                      Follow
+                    </button>
+                  </div>
+                  <div
+                    class="author-preview-metadata-container"
+                    data-author-id="962233"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/theodinproject/new-react-course-announcement-2a6f" class="crayons-story__tertiary fs-xs"><time datetime="2023-07-19T17:50:31Z">Jul 19 &#39;23</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1689789031"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/theodinproject/new-react-course-announcement-2a6f" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fec9tu3w4i27geu612u3g.png" id="article-link-1542483">
+          New React Course Announcement
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+          <a href="https://dev.to/theodinproject/new-react-course-announcement-2a6f" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count data-reactable-id="1542483" aria-label="Add a comment to post - New React Course Announcement">
+            <div class="multiple_reactions_aggregate">
+              <span class="multiple_reactions_icons_container" dir="rtl">
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f1f4f3e97.svg" width="18" height="18" />
+                  </span>
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg" width="18" height="18" />
+                  </span>
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18" />
+                  </span>
+              </span>
+              <span class="aggregate_reactions_counter">58<span class="hidden s:inline"> reactions</span></span>
+            </div>
+          </a>
+            <a href="https://dev.to/theodinproject/new-react-course-announcement-2a6f#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - New React Course Announcement">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a8lrhzk96n0ez9x9f5oks0lqlwu0c5nr" class="crayons-icon"><title id="a8lrhzk96n0ez9x9f5oks0lqlwu0c5nr">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              16<span class="hidden s:inline"> comments</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            1 min read
+          </small>
+            <button
+              type="button"
+              id="article-save-button-1542483"
+              class="c-btn c-btn--icon-alone bookmark-button"
+              data-reactable-id="1542483"
+              data-article-author-id="962233"
+              aria-label="Save post New React Course Announcement to reading list"
+              title="Save post New React Course Announcement to reading list">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="crayons-story " data-feed-content-id="979353" data-content-user-id="750896">
+  <a href="https://dev.to/theodinproject/conclusion-367n" aria-labelledby="article-link-979353" class="crayons-story__hidden-navigation-link">Conclusion</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="https://dev.to/i3uckwheat" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F750896%2F2a9408ab-5caf-4c08-9d49-c017ef2e1d9a.png" alt="i3uckwheat profile" class="crayons-avatar__image" loading="lazy" />
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="https://dev.to/i3uckwheat" class="crayons-story__secondary fw-medium m:hidden">
+              Briggs Elsperger
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-979353" aria-controls="story-author-preview-content-979353" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Briggs Elsperger profile details">
+                Briggs Elsperger
+                
+              </button>
+              <div
+                id="story-author-preview-content-979353"
+                class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0"
+                style="border-top-color: var(--card-color);"
+                data-repositioning-dropdown="true"
+                data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="https://dev.to/i3uckwheat" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img
+                          src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F750896%2F2a9408ab-5caf-4c08-9d49-c017ef2e1d9a.png"
+                          class="crayons-avatar__image"
+                          alt=""
+                          loading="lazy" />
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Briggs Elsperger</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button
+                      class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100"
+                      data-info='{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:750896,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Briggs Elsperger&quot;}'>
+                      Follow
+                    </button>
+                  </div>
+                  <div
+                    class="author-preview-metadata-container"
+                    data-author-id="750896"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/theodinproject/conclusion-367n" class="crayons-story__tertiary fs-xs"><time datetime="2022-03-12T21:17:56Z">Mar 12 &#39;22</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1647119876"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/theodinproject/conclusion-367n" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F6cc5502wgsbbq0mb3ga9.gif" id="article-link-979353">
+          Conclusion
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+          <a href="https://dev.to/theodinproject/conclusion-367n" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count data-reactable-id="979353" aria-label="Add a comment to post - Conclusion">
+            <div class="multiple_reactions_aggregate">
+              <span class="multiple_reactions_icons_container" dir="rtl">
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f1f4f3e97.svg" width="18" height="18" />
+                  </span>
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg" width="18" height="18" />
+                  </span>
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18" />
+                  </span>
+              </span>
+              <span class="aggregate_reactions_counter">68<span class="hidden s:inline"> reactions</span></span>
+            </div>
+          </a>
+            <a href="https://dev.to/theodinproject/conclusion-367n#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Conclusion">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a2lh5nvu4shcs1giswnrgqqy6jgv64t9" class="crayons-icon"><title id="a2lh5nvu4shcs1giswnrgqqy6jgv64t9">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              42<span class="hidden s:inline"> comments</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            1 min read
+          </small>
+            <button
+              type="button"
+              id="article-save-button-979353"
+              class="c-btn c-btn--icon-alone bookmark-button"
+              data-reactable-id="979353"
+              data-article-author-id="750896"
+              aria-label="Save post Conclusion to reading list"
+              title="Save post Conclusion to reading list">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="crayons-story " data-feed-content-id="979352" data-content-user-id="750896">
+  <a href="https://dev.to/theodinproject/strategically-building-your-portfolio-1km4" aria-labelledby="article-link-979352" class="crayons-story__hidden-navigation-link">Strategically building your portfolio</a>
+
+
+  <div class="crayons-story__body crayons-story__body-full_post">
+    <div class="crayons-story__top">
+      <div class="crayons-story__meta">
+        <div class="crayons-story__author-pic">
+
+          <a href="https://dev.to/i3uckwheat" class="crayons-avatar  crayons-avatar--l  ">
+            <img src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F750896%2F2a9408ab-5caf-4c08-9d49-c017ef2e1d9a.png" alt="i3uckwheat profile" class="crayons-avatar__image" loading="lazy" />
+          </a>
+        </div>
+        <div>
+          <div>
+            <a href="https://dev.to/i3uckwheat" class="crayons-story__secondary fw-medium m:hidden">
+              Briggs Elsperger
+            </a>
+            <div class="profile-preview-card relative mb-4 s:mb-0 fw-medium hidden m:inline-block">
+              <button id="story-author-preview-trigger-979352" aria-controls="story-author-preview-content-979352" class="profile-preview-card__trigger fs-s p-1 -ml-1 -my-2 crayons-btn crayons-btn--ghost" aria-label="Briggs Elsperger profile details">
+                Briggs Elsperger
+                
+              </button>
+              <div
+                id="story-author-preview-content-979352"
+                class="profile-preview-card__content crayons-dropdown branded-7 p-4 pt-0"
+                style="border-top-color: var(--card-color);"
+                data-repositioning-dropdown="true"
+                data-testid="profile-preview-card">
+                <div class="gap-4 grid">
+                  <div class="-mt-4">
+                    <a href="https://dev.to/i3uckwheat" class="flex">
+                      <span class="crayons-avatar crayons-avatar--xl mr-2 shrink-0">
+                        <img
+                          src="https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F750896%2F2a9408ab-5caf-4c08-9d49-c017ef2e1d9a.png"
+                          class="crayons-avatar__image"
+                          alt=""
+                          loading="lazy" />
+                      </span>
+                      <span class="crayons-link crayons-subtitle-2 mt-5">Briggs Elsperger</span>
+                    </a>
+                  </div>
+                  <div class="print-hidden">
+                    <button
+                      class="crayons-btn follow-action-button whitespace-nowrap follow-user w-100"
+                      data-info='{&quot;style&quot;:&quot;full&quot;,&quot;id&quot;:750896,&quot;className&quot;:&quot;User&quot;,&quot;name&quot;:&quot;Briggs Elsperger&quot;}'>
+                      Follow
+                    </button>
+                  </div>
+                  <div
+                    class="author-preview-metadata-container"
+                    data-author-id="750896"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="https://dev.to/theodinproject/strategically-building-your-portfolio-1km4" class="crayons-story__tertiary fs-xs"><time datetime="2022-03-12T21:17:34Z">Mar 12 &#39;22</time><span class="time-ago-indicator-initial-placeholder" data-seconds="1647119854"></span></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="crayons-story__indention">
+      <h2 class="crayons-story__title crayons-story__title-full_post">
+        <a href="https://dev.to/theodinproject/strategically-building-your-portfolio-1km4" data-preload-image="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F71nw5zgrgddmdylr5o84.gif" id="article-link-979352">
+          Strategically building your portfolio
+        </a>
+      </h2>
+        <div class="crayons-story__tags">
+        </div>
+      <div class="crayons-story__bottom">
+        <div class="crayons-story__details">
+          <a href="https://dev.to/theodinproject/strategically-building-your-portfolio-1km4" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left" data-reaction-count data-reactable-id="979352" aria-label="Add a comment to post - Strategically building your portfolio">
+            <div class="multiple_reactions_aggregate">
+              <span class="multiple_reactions_icons_container" dir="rtl">
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f1f4f3e97.svg" width="18" height="18" />
+                  </span>
+                  <span class="crayons_icon_container">
+                    <img src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18" />
+                  </span>
+              </span>
+              <span class="aggregate_reactions_counter">88<span class="hidden s:inline"> reactions</span></span>
+            </div>
+          </a>
+            <a href="https://dev.to/theodinproject/strategically-building-your-portfolio-1km4#comments" class="crayons-btn crayons-btn--s crayons-btn--ghost crayons-btn--icon-left flex items-center" aria-label="Add a comment to post - Strategically building your portfolio">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a4vcsk59xjxqe602zddalmtawdl5vq33" class="crayons-icon"><title id="a4vcsk59xjxqe602zddalmtawdl5vq33">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
+
+              7<span class="hidden s:inline"> comments</span>
+            </a>
+        </div>
+        <div class="crayons-story__save">
+          <small class="crayons-story__tertiary fs-xs mr-2">
+            2 min read
+          </small>
+            <button
+              type="button"
+              id="article-save-button-979352"
+              class="c-btn c-btn--icon-alone bookmark-button"
+              data-reactable-id="979352"
+              data-article-author-id="750896"
+              aria-label="Save post Strategically building your portfolio to reading list"
+              title="Save post Strategically building your portfolio to reading list">
+              <span class="bm-initial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+
+              </span>
+              <span class="bm-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75z"></path></svg>
+
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="placeholder-div"></div>
+<div class="single-article-small-pic" id="article-index-hidden-div" style="display:none"></div>
+
+    </div>
+    <div class="loading-articles" id="loading-articles">
+      loading...
+    </div>
+  </main>
+</div>
+
+<script src="https://assets.dev.to/assets/storiesList-b9c50cbd898a3a64258a3a49db1c531651b0a4a11937be35ed4651111802b5b5.js" defer="defer"></script>
+<script src="https://assets.dev.to/assets/hideBookmarkButtons-a5d5527593e7fcba1cba72db457b57f49f94bf2266c62db454b2c8a00e751d33.js" defer="defer"></script>
+<script src="https://assets.dev.to/assets/localizeArticleDates-70147c5c6bfe350b42e020ebb2a3dd37419d83978982b5a67b6389119bf162ac.js" defer="defer"></script>
+
+    <div id="runtime-banner-container"></div>
+    <div id="i18n-translations" data-translations="{&quot;en&quot;:{&quot;core&quot;:{&quot;add_comment&quot;:&quot;Add comment&quot;,&quot;beta&quot;:&quot;beta&quot;,&quot;comment&quot;:&quot;Comment&quot;,&quot;copy_link&quot;:&quot;Copy link&quot;,&quot;edit_profile&quot;:&quot;Edit profile&quot;,&quot;follow&quot;:&quot;Follow&quot;,&quot;follow_back&quot;:&quot;Follow back&quot;,&quot;following&quot;:&quot;Following&quot;,&quot;like&quot;:&quot;Like&quot;,&quot;loading&quot;:&quot;loading...&quot;,&quot;reaction&quot;:&quot;Reaction&quot;,&quot;report_abuse&quot;:&quot;Report abuse&quot;,&quot;search&quot;:&quot;Search&quot;,&quot;success_settings&quot;:&quot;Successfully updated settings.&quot;,&quot;search_placeholder&quot;:&quot;Search...&quot;,&quot;search_find_related_posts&quot;:&quot;Find related posts...&quot;,&quot;search_powered_by&quot;:&quot;Powered by Algolia&quot;,&quot;search_submit_search&quot;:&quot;Submit search for advanced filtering.&quot;,&quot;search_displaying_recommendations&quot;:&quot;Displaying Algolia Recommendations — Start typing to search&quot;,&quot;article_form_save_changes&quot;:&quot;Save changes&quot;,&quot;article_form_schedule&quot;:&quot;Schedule&quot;,&quot;article_form_publish&quot;:&quot;Publish&quot;,&quot;article_form_loading_preview&quot;:&quot;Loading preview&quot;,&quot;article_form_preview_loaded&quot;:&quot;Preview loaded&quot;,&quot;comments_preview&quot;:&quot;Preview&quot;,&quot;comments_continue_editing&quot;:&quot;Continue editing&quot;,&quot;survey_enter_response&quot;:&quot;Enter your response here...&quot;,&quot;survey_thank_you_response&quot;:&quot;Thank you for your response.&quot;,&quot;survey_thank_you_completing&quot;:&quot;Thank you for completing the survey!&quot;,&quot;dashboard_analytics_readers&quot;:&quot;Readers&quot;,&quot;dashboard_analytics_avg_read_time&quot;:&quot;avg. read time %{seconds}s&quot;,&quot;dashboard_analytics_comments&quot;:&quot;Comments&quot;,&quot;dashboard_analytics_reactions&quot;:&quot;Reactions&quot;,&quot;dashboard_analytics_unique_reactors&quot;:&quot;from %{count} unique users&quot;,&quot;dashboard_analytics_bookmarks&quot;:&quot;Bookmarks&quot;,&quot;dashboard_analytics_followers&quot;:&quot;New Followers&quot;,&quot;stats_by&quot;:&quot;by&quot;,&quot;editor_new_title&quot;:&quot;New post title here...&quot;,&quot;editor_body_placeholder&quot;:&quot;Write your post content here...&quot;,&quot;tags_field_label&quot;:&quot;Add up to 4 tags&quot;,&quot;tags_field_placeholder&quot;:&quot;Add up to 4 tags...&quot;,&quot;counted_organization&quot;:{&quot;one&quot;:&quot;%{count} organization&quot;,&quot;other&quot;:&quot;%{count} organizations&quot;},&quot;counted_user&quot;:{&quot;one&quot;:&quot;%{count} person&quot;,&quot;other&quot;:&quot;%{count} people&quot;},&quot;not_following&quot;:&quot;You&#39;re not following anyone&quot;,&quot;following_everyone&quot;:&quot;You&#39;re following %{details} (everyone)&quot;,&quot;you_are_following&quot;:&quot;You&#39;re following&quot;,&quot;and&quot;:&quot;and&quot;}}}"></div>
+  </div>
+</div>
+    
+
+<footer id="footer" class="crayons-footer print-hidden">
+  <div id="footer-container" class="crayons-footer__container">
+
+
+        <style>
+  .long-bb-body {
+    max-height: calc(100vh - 200px);
+    overflow: hidden;
+  }
+  .long-bb-bottom {
+    height: 180px;
+    background: linear-gradient(to top, var(--card-bg), transparent);
+    margin-top: -180px;
+    position:relative;
+    z-index: 5;
+  }
+</style>
+
+  <div
+    style=""
+    data-display-unit data-id="146443"
+    data-category-click="click"
+    data-category-impression="impression"
+    data-context-type="home"
+    data-special="nothing"
+    data-article-id=""
+    data-type-of="in_house">
+          <div class="crayons-card crayons-card--secondary crayons-bb bb-placement js-billboard" style="display: inline-flex; flex-direction: column; align-items: center; margin: 0 auto 2rem auto; width: fit-content; padding: 2rem;">
+        <p style="font-weight: bold; margin: 0 0 1rem 0;">
+            💎 DEV Diamond Sponsors
+        </p>
+        <p style="font-size: 0.8em; margin: 0 0 2rem 0;">
+            Thank you to our Diamond Sponsors for supporting the DEV Community
+        </p>
+    
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem;">
+            <div style="display: inline-block; max-width: 240px; font-size: 0.8em; font-style: italic; text-align: center; padding: 10px; background: #ffffff; border-radius: 5px; color: #404040;">
+                <a href="https://aistudio.google.com/?utm_source=partner&amp;utm_medium=partner&amp;utm_campaign=FY25-Global-DEVpartnership-sponsorship-AIS&amp;utm_content=-&amp;utm_term=-&bb=146443" target="_blank" rel="noopener noreferrer" style="display: flex; justify-content: center; align-items: center;">
+                    <img src="https://media2.dev.to/dynamic/image/width=880%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fxjlyhbdqehj3akhz166w.png" alt="Google AI - Official AI Model and Platform Partner" style="display: block; background: #ffffff; margin: 0 auto; width: auto; height: 54px; padding: 10px;" loading="lazy" width="2048" height="472">
+                </a>
+                <p style="text-align: center;">Google AI is the official AI Model and Platform Partner of DEV</p>
+            </div>
+
+            <div style="display: inline-block; max-width: 240px; font-size: 0.8em; font-style: italic; text-align: center; padding: 10px; background: #ffffff; border-radius: 5px; color: #404040;">
+                <a href="https://neon.tech/?ref=devto&bb=146443" target="_blank" rel="noopener noreferrer" style="display: flex; justify-content: center; align-items: center;">
+                    <img src="https://media2.dev.to/dynamic/image/width=880%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fbnl88cil6afxzmgwrgtt.png" alt="Neon - Official Database Partner" style="display: block; background: #ffffff; margin: 0 auto; width: auto; height: 60px; padding: 10px;" loading="lazy" width="2286" height="596">
+                </a>
+                <p style="text-align: center;">Neon is the official database partner of DEV</p>
+            </div>
+    
+            <div style="display: inline-block; max-width: 240px; font-size: 0.8em; font-style: italic; text-align: center; padding: 10px; background: #ffffff; border-radius: 5px; color: #404040;">
+                <a href="https://www.algolia.com/developers/?utm_source=devto&amp;utm_medium=referral&bb=146443" target="_blank" rel="noopener noreferrer" style="display: flex; justify-content: center; align-items: center;">
+                    <img src="https://media2.dev.to/dynamic/image/width=880%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fv30ephnolfvnlwgwm0yz.png" alt="Algolia - Official Search Partner" style="display: block; background: #ffffff; margin: 0 auto; width: auto; height: 60px; padding: 10px;" loading="lazy" width="2286" height="596">
+                </a>
+                <p style="text-align: center;">Algolia is the official search partner of DEV</p>
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+    <p class="fs-s crayons-footer__description">
+      <a class="c-link c-link--branded fw-medium" aria-label="DEV Community Home" href="https://dev.to/">DEV Community</a> — A space to discuss and keep up software development and manage your software career
+    </p>
+
+    <ul class="footer__nav-links flex gap-2 justify-center flex-wrap fs-s p-0" style="" />
+        <li class="footer__nav-link flex items-center">
+    <a href="https://dev.to/">
+      Home
+    </a>
+    <span class="dot ml-2"></span>
+  </li>
+  <li class="footer__nav-link flex items-center">
+    <a href="https://dev.to/++">
+      DEV++
+    </a>
+    <span class="dot ml-2"></span>
+  </li>
+  <li class="footer__nav-link flex items-center">
+    <a href="https://dev.to/videos">
+      Videos
+    </a>
+    <span class="dot ml-2"></span>
+  </li>
+  <li class="footer__nav-link flex items-center">
+    <a href="https://dev.to/deved">
+      DEV Education Tracks
+    </a>
+    <span class="dot ml-2"></span>
+  </li>
+  <li class="footer__nav-link flex items-center">
+    <a href="https://dev.to/challenges">
+      DEV Challenges
+    </a>
+    <span class="dot ml-2"></span>
+  </li>
+  <li class="footer__nav-link flex items-center">
+    <a href="https://dev.to/help">
+      DEV Help
+    </a>
+    <span class="dot ml-2"></span>
+  </li>
+  <li class="footer__nav-link flex items-center">
+    <a href="https://dev.to/advertise">
+      Advertise on DEV
+    </a>
+    <span class="dot ml-2"></span>
+  </li>
+  <li class="footer__nav-link flex items-center">
+    <a href="https://dev.to/organizations">
+      Organization Accounts
+    </a>
+    <span class="dot ml-2"></span>
+  </li>
+  <li class="footer__nav-link flex items-center">
+    <a href="https://dev.to/showcase">
+      DEV Showcase
+    </a>
+    <span class="dot ml-2"></span>
+  </li>
+  <li class="footer__nav-link flex items-center">
+    <a href="https://dev.to/about">
+      About
+    </a>
+    <span class="dot ml-2"></span>
+  </li>
+  <li class="footer__nav-link flex items-center">
+    <a href="https://dev.to/contact">
+      Contact
+    </a>
+    <span class="dot ml-2"></span>
+  </li>
+  <li class="footer__nav-link flex items-center">
+    <a href="https://dev.to/free-postgres-database-tier">
+      Free Postgres Database
+    </a>
+    <span class="dot ml-2"></span>
+  </li>
+  <li class="footer__nav-link flex items-center">
+    <a href="https://shop.forem.com/">
+      Forem Shop
+    </a>
+    <span class="dot ml-2"></span>
+  </li>
+  <li class="footer__nav-link flex items-center">
+    <a href="https://mlh.io/">
+      MLH
+    </a>
+    <span class="dot ml-2"></span>
+  </li>
+
+    </ul>
+
+    <ul class="footer__nav-links flex gap-2 justify-center flex-wrap fs-s p-0" style="" />
+        <li class="footer__nav-link flex items-center">
+    <a href="https://dev.to/code-of-conduct">
+      Code of Conduct
+    </a>
+    <span class="dot ml-2"></span>
+  </li>
+  <li class="footer__nav-link flex items-center">
+    <a href="https://dev.to/privacy">
+      Privacy Policy
+    </a>
+    <span class="dot ml-2"></span>
+  </li>
+  <li class="footer__nav-link flex items-center">
+    <a href="https://dev.to/terms">
+      Terms of Use
+    </a>
+    <span class="dot ml-2"></span>
+  </li>
+
+    </ul>
+
+    <div class="fs-s">
+      <p>Built on <a class="c-link c-link--branded" target="_blank" rel="noopener" href="https://www.forem.com">Forem</a> — the <a target="_blank" rel="noopener" class="c-link c-link--branded" href="https://dev.to/t/opensource">open source</a> software that powers <a target="_blank" rel="noopener" class="c-link c-link--branded" href="https://dev.to">DEV</a> and other inclusive communities.</p>
+      <p>Made with love and <a target="_blank" rel="noopener" class="c-link c-link--branded" href="https://dev.to/t/rails">Ruby on Rails</a>. DEV Community <span title="copyright">&copy;</span> 2016 - 2026.</p>
+    </div>
+  </div>
+</footer>
+<div id="snack-zone"></div>
+
+    <div id="global-signup-modal" class="authentication-modal hidden">
+  <div class="authentication-modal__container">
+    <figure class="authentication-modal__image-container">
+      <img class="authentication-modal__image" src="https://media2.dev.to/dynamic/image/width=190,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png"
+        alt="DEV Community" loading="lazy" />
+    </figure>
+    <div class="authentication-modal__content">
+      <p class="authentication-modal__description">
+          We&#39;re a place where coders share, stay up-to-date and grow their careers.
+      </p>
+    </div>
+    <div class="authentication-modal__actions">
+      <a href="https://dev.to/enter?signup_subforem=1" class="crayons-btn" aria-label="Log in" data-no-instant>
+        Log in
+      </a>
+      <a href="https://dev.to/enter?signup_subforem=1&amp;state=new-user" class="crayons-btn crayons-btn--ghost-brand js-global-signup-modal__create-account" aria-label="Create new account" data-no-instant>
+        Create account
+      </a>
+    </div>
+  </div>
+</div>
+
+<script src="https://assets.dev.to/assets/signupModalShortcuts-0b25469b985100a01e94cbd7fccaf7f0a4d776e129aac65c766aa32cb28ab29a.js" defer="defer"></script>
+
+    <div id="cookie-consent"></div>
+  <div id="reaction-category-resources" class="hidden" aria-hidden="true">
+    <img data-name="Like" data-slug="like" data-position="1" src="https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" width="18" height="18" />
+    <img data-name="Unicorn" data-slug="unicorn" data-position="2" src="https://assets.dev.to/assets/multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f1f4f3e97.svg" width="18" height="18" />
+    <img data-name="Exploding Head" data-slug="exploding_head" data-position="3" src="https://assets.dev.to/assets/exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068ad3e2c4b5.svg" width="18" height="18" />
+    <img data-name="Raised Hands" data-slug="raised_hands" data-position="4" src="https://assets.dev.to/assets/raised-hands-74b2099fd66a39f2d7eed9305ee0f4553df0eb7b4f11b01b6b1b499973048fe5.svg" width="18" height="18" />
+    <img data-name="Fire" data-slug="fire" data-position="5" src="https://assets.dev.to/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg" width="18" height="18" />
+</div>
+
+    <script>
+  var userSignedIn = false;
+  if (document.readyState === 'complete' || document.readyState === 'interactive') {
+    initAuth();
+  } else {
+    document.addEventListener('DOMContentLoaded', initAuth);
+  }
+
+  function initAuth() {
+    var paramToken = new URLSearchParams(window.location.search).get('jwt');
+
+    if (paramToken && !userSignedIn) {
+      authenticateUser(paramToken);
+    } else {
+      var iframe = document.createElement('iframe');
+      iframe.style.display = 'none';
+      iframe.src = 'https://forem.com/auth_pass/iframe';
+  
+      document.body.appendChild(iframe);
+  
+      window.addEventListener('message', function(event) {
+        if (event.origin !== 'https://forem.com' && event.origin !== window.location.origin) {
+          return;
+        }
+  
+        var data = event.data;
+  
+        if (data.authenticated && !userSignedIn) {
+          authenticateUser(data.token);
+        } else if(data.authenticated && window.ReactNativeWebView && window.ReactNativeWebView.postMessage) {
+          window.ReactNativeWebView.postMessage(JSON.stringify({
+            action: 'login',
+            token: data.token,
+          }));
+        }
+      });  
+    }
+
+    function authenticateUser(token) {
+      fetch('/auth_pass/token_login', {
+        method: 'POST',
+        credentials: 'include',
+        headers: {
+          'Content-Type': 'application/json',
+          'X-CSRF-Token': getMetaContent('csrf-token'),
+        },
+        body: JSON.stringify({ token: token }),
+      })
+      .then(function(response) {
+        return response.json();
+      })
+      .then(function(data) {
+        if (data.success) {
+          if (document.head.querySelector('meta[name="user-signed-in"][content="false"]')) {
+            // Reload the page to update the user's state
+            location.reload();
+          }
+        }
+      })
+      .catch(function(error) {
+        console.error('Error during authentication:', error);
+      });
+    }
+
+    function getMetaContent(name) {
+      var element = document.querySelector('meta[name="' + name + '"]');
+      return element ? element.getAttribute('content') : '';
+    }
+  }
+</script>
+
+  
+  
+  
+  </body>
+  </html>
