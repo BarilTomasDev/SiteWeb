@@ -1,0 +1,15 @@
+.img-bien {
+    height: 220px;
+    object-fit: cover;
+    cursor: zoom-in;
+}
+
+.image-zoom {
+    max-height: 600px;
+    object-fit: cover;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    transition: 0.2s;
+}
